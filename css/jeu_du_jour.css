@@ -24,11 +24,27 @@ header {
     position: sticky;
     top: 0;
     z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
 }
+
+ul {
+    list-style: none;
+    margin-right: 2em;
+    display: flex;
+}
+
+li {
+    margin-right: 2em;
+}
+
+
 
 #logo {
     height: 5em;
-    width: 5em;
+    margin-left: 1em;
+    filter: contrast(150%);
 }
 
 main {
@@ -37,12 +53,16 @@ main {
     width: 65%;
     height: 100%;
     margin: auto;
-    border-top: #FFE0E2 85px solid;
     z-index: 1;
+    box-shadow: 0 0 10px 10px #72191C;
 }
 
 .space {
     padding: 1em;
+    height: 48px;
+    background-color: #FFE0E2;
+    position: relative;
+    top: -80px;
 }
 
 #hero {
@@ -68,6 +88,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     padding: 2em 0;
+    justify-content: space-between;
 }
 
 #cover {
@@ -139,6 +160,7 @@ h2 {
 #informations {
     display: flex;
     gap: 2em;
+    justify-content: space-between;
 }
 
 .brand {
