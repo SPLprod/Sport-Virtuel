@@ -9,7 +9,8 @@ html {
 
 header{
     background: #ffffff;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(73, 16, 139, 1) 100%);
+    background: linear-gradient(180deg,rgba(73, 16, 139, 1) 0%, rgba(73, 16, 139, 0.49) 50%, rgba(73, 16, 139, 0.18) 100%);
+
 }
 
 div h2 {
@@ -25,7 +26,8 @@ ul {
     gap: 3em;
     padding: 0;
     margin: 0;
-    margin-left: 55em;
+    margin-left: 90em;
+
 }
 
 footer{
