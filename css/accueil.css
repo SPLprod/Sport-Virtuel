@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    background-color: #D3D3D3;
+}
+
+header, footer {
+    background-color: #49108b;
+
+    color: #F3F8FF;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F8FF;
+}
+
+.logo {
+
+    font-weight: bold;
+
+    font-size: 2em;
+
+}
+
+header nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    gap: 20px;
+
+    justify-content: flex-end;
+
+}
+
+
+
+#logo {
+    height: 5em;
+    width: 5em;
+}
+
+main {
+    background-color: #ffffff;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+}
+
+.space {
+    padding: 1em;
+}
+
+#hero {
+    padding: 5em;
+    background-image: url("/img/maxresdefault.jpg");
+	background-size: cover;
+	/* background-position: center; */
+    color: #ffffff;
+    text-shadow: 5px 5px 1px #3f225c;
+    text-align: center;
+    font-size: 35px;
+}
+
+#content {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+ 
+}
+
+.info {
+    background-color: #D9BAFF;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 50px;
+    
+}
+
+#informations {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.image {
+
+    width: 50%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50px;
+    margin: 100px 0 5px;
+    display: flex;
+}
+
+h3 {
+
+}
+
+.image:nth-of-type(1) {
+
+    padding: 2em;
+    background-image: url("/img/OIP.webp");
+	background-size: cover;
+	background-position: center;
+    box-shadow:  10px 5px 5px  rgb(139, 139, 139);
+
+}
+
+.image:nth-of-type(2) {
+
+    padding: 2em;
+    background-image: url("/img/a5d22724-60ed-4b1c-a5ef-866fe78e17f5.jpg");
+	background-size: cover;
+	background-position: center;
+    box-shadow:  10px 5px 5px  rgb(139, 139, 139);
+    text-align: center;
+}
+   
+
+
+footer {
+    padding: 2em;
+    text-align: center;
+}
