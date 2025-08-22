@@ -20,6 +20,10 @@ a {
 header {
     display: flex;
     height: 85px;
+    background: linear-gradient(180deg,rgba(114, 25, 28, 1) 0%, rgba(114, 25, 28, 0.63) 50%, rgba(114, 25, 28, 0) 100%);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 #logo {
@@ -28,10 +32,13 @@ header {
 }
 
 main {
+    position: relative;
     background-color: #FFE0E2;
     width: 65%;
     height: 100%;
     margin: auto;
+    border-top: #FFE0E2 85px solid;
+    z-index: 1;
 }
 
 .space {
@@ -40,12 +47,81 @@ main {
 
 #hero {
     padding: 2em;
-    background-color: #FBE256;
+    background-image: url(../Img/background_title.png);
+    background-size: cover;
 }
 
 #content {
     width: 70%;
     margin: auto;
+}
+
+
+
+.shot {
+    height: 7.8em;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
+
+#pres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cover {
+    height: 20.1em;
+    margin-right: 1em;
+}
+
+h2 {
+    font-size: xxx-large;
+}
+
+#shots {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+
+#s1 {
+    background-image: url(../img/image_stream-44544-4984_0002.jpg);
+    background-size: cover;
+    grid-column: span 3 / span 3;
+}
+
+#s2 {
+    background-image: url(../img/ss_036eebd8c217519c80d62d540fab7bf85c74b0b1.600x338.jpg);
+    background-size: cover;
+    grid-column-start: 4;
+}
+
+#s3 {
+    background-image: url(../img/ss_5e9685e863b9f764e275adb0ce80d22f7603ac0a.600x338.jpg);
+    background-size: cover;
+    grid-column-start: 5;
+}
+
+#Pegi {
+    grid-row-start: 2;
+}
+
+#s4 {
+    background-image: url(../img/20220812200505_1-1024x576.jpg);
+    background-size: cover;
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+}
+
+#s5 {
+    background-image: url(../img/ss_841c91627d59ab788a8457da025ee807b91d1e10.600x338.jpg);
+    background-size: cover;
+    grid-column: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 2;
 }
 
 .info {
