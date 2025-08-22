@@ -56,8 +56,6 @@ main {
     margin: auto;
 }
 
-
-
 .shot {
     height: 7.8em;
 }
@@ -69,6 +67,7 @@ h3 {
 #pres {
     display: flex;
     flex-wrap: wrap;
+    padding: 2em 0;
 }
 
 #cover {
@@ -126,8 +125,15 @@ h2 {
 
 .info {
     background-color: #FFB3B8;
-    margin: 2em 0;
+    margin: 1em 0;
     padding: 2em;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1em;
 }
 
 #informations {
@@ -135,11 +141,23 @@ h2 {
     gap: 2em;
 }
 
+.brand {
+    width: 2em;
+}
+
 button {
-    position: sticky;
-    right: 7em;
+    position: relative;
+    left: 88%;
+    bottom: 2em;
     width: 7em;
-    padding: 0 1em;
+    border: 0;
+    background-color: #72191C;
+}
+
+#arrow {
+    filter: invert(1);
+    padding: 1em;
+    aspect-ratio: 1 / 1;
 }
 
 footer {
